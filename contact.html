@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Carl Bakiao</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+
+<header class="header">
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">More</a>
+        <a href="contact.html" class="active">Contact</a>
+    </nav>
+</header>
+
+<section class="page">
+    <h1>Contact Me</h1>
+
+    <div class="contact-info">
+        <p><i class='bx bx-phone'></i> <strong>Phone:</strong> 0905 249 1940</p>
+        <p><i class='bx bx-map'></i> <strong>Address:</strong> Limatoc Street, City of Mati, Davao Oriental</p>
+        <p><i class='bx bxl-google'></i> <strong>Gmail:</strong> basty051507@gmail.com</p>
+    </div>
+
+    <!-- Contact Form -->
+    <form class="contact-form" action="https://carl-bakiao.page.gd/send_mail.php" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+
+</section>
+
+</body>
+</html>
